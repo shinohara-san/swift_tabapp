@@ -13,6 +13,8 @@
 		95F2DF5A240798CE005BDB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F2DF58240798CE005BDB9B /* Main.storyboard */; };
 		95F2DF5C240798D4005BDB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F2DF5B240798D4005BDB9B /* Assets.xcassets */; };
 		95F2DF5F240798D4005BDB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F2DF5D240798D4005BDB9B /* LaunchScreen.storyboard */; };
+		95F2DF672407BFEC005BDB9B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2DF662407BFEC005BDB9B /* ProfileViewController.swift */; };
+		95F2DF692407CDFD005BDB9B /* OmikujiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2DF682407CDFD005BDB9B /* OmikujiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95F2DF5B240798D4005BDB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F2DF5E240798D4005BDB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F2DF60240798D4005BDB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F2DF662407BFEC005BDB9B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		95F2DF682407CDFD005BDB9B /* OmikujiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				95F2DF52240798CE005BDB9B /* AppDelegate.swift */,
 				95F2DF54240798CE005BDB9B /* SceneDelegate.swift */,
 				95F2DF56240798CE005BDB9B /* ViewController.swift */,
+				95F2DF662407BFEC005BDB9B /* ProfileViewController.swift */,
+				95F2DF682407CDFD005BDB9B /* OmikujiViewController.swift */,
 				95F2DF58240798CE005BDB9B /* Main.storyboard */,
 				95F2DF5B240798D4005BDB9B /* Assets.xcassets */,
 				95F2DF5D240798D4005BDB9B /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F2DF57240798CE005BDB9B /* ViewController.swift in Sources */,
+				95F2DF692407CDFD005BDB9B /* OmikujiViewController.swift in Sources */,
 				95F2DF53240798CE005BDB9B /* AppDelegate.swift in Sources */,
+				95F2DF672407BFEC005BDB9B /* ProfileViewController.swift in Sources */,
 				95F2DF55240798CE005BDB9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
